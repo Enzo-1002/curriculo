@@ -1,0 +1,52 @@
+/* -----------------Geral----------------- */
+
+
+*{
+    margin: 0 12rem 0 7rem;
+    
+}
+
+.title{
+    font-size:2rem;
+    color: rgb(0, 0, 90);
+}
+
+
+.title.dois{
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 90);
+}
+
+
+
+section{
+    padding: 1rem 0 1rem 0;
+}
+
+.blue{
+    background-color: rgb(124, 153, 215);
+}
+
+/* -----------------Dados----------------- */
+
+.box {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.box.blue{
+    color: white;
+    background-color: rgb(0, 0, 90);;
+}
+
+/* -----------------Esquerda----------------- */
+
+.esquerda{
+    padding: 0 20rem 0 0;
+}
+
+/* -----------------Direita----------------- */
