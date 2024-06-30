@@ -2,30 +2,74 @@
 
 
 *{
-    margin: 0 12rem 0 7rem;
-    
+    margin: auto;
+    padding: 0;
+    box-sizing: 0;
+    max-width: 1000px;
+}
+
+p{
+    padding: 0 0 0 10px;
+    font-size: 1.5rem;
 }
 
 .title{
+    padding: 1rem 0 0.5rem 10px;
     font-size:2rem;
     color: rgb(0, 0, 90);
 }
-
-
-.title.dois{
-    width: 100%;
-    border-bottom: 1px solid rgb(0, 0, 90);
-}
-
 
 
 section{
     padding: 1rem 0 1rem 0;
 }
 
-.blue{
-    background-color: rgb(124, 153, 215);
+ul{
+    padding: 0 0 0 30px;
 }
+
+.habilidades{
+    padding: 10px 0 10px 0;
+}
+
+.container{
+    display:table-cell;
+    vertical-align:top;
+}
+
+
+/* -----------------Header----------------- */
+
+
+.foto img{
+    padding: 0 0 0 1rem;
+    bottom: 0;
+    width: 100%;
+    max-width: 170px;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-position:left;
+    border: 2px solid rgb(0, 0, 90);
+    float: left;
+}
+
+.nome{
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 4rem;
+    left: 100px;
+}
+
+header{
+    padding: 2rem 0 3rem;
+    border-bottom: 6px solid rgb(0, 0, 90);
+}
+
 
 /* -----------------Dados----------------- */
 
@@ -46,7 +90,26 @@ section{
 /* -----------------Esquerda----------------- */
 
 .esquerda{
-    padding: 0 20rem 0 0;
+    float: left;
+    height: 0px;
+    padding: 0;
+}
+
+.title.dois{
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 90);
 }
 
 /* -----------------Direita----------------- */
+
+.direita{
+    background-color: rgb(197, 211, 241);
+    height: 600px;
+    float: right;
+    padding: 0 0 19rem 0;
+    margin-left: 2rem;
+}
+
+.title.tres{
+    border-bottom: 1px solid white;
+}
