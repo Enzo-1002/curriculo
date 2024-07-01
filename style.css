@@ -5,18 +5,27 @@
     margin: auto;
     padding: 0;
     box-sizing: 0;
-    max-width: 1000px;
+    max-width: 1128px;
+}
+
+body{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 4rem 4rem 4rem 4rem;
+    /* background-color: rgb(0, 0, 90); */
+
 }
 
 p{
-    padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
     font-size: 1.5rem;
 }
 
 .title{
-    padding: 1rem 0 0.5rem 10px;
-    font-size:2rem;
+    padding: 0rem 0 0.5rem 20px;
+    font-size:1.5rem;
     color: rgb(0, 0, 90);
+    font-weight: bold;
 }
 
 
@@ -25,7 +34,7 @@ section{
 }
 
 ul{
-    padding: 0 0 0 30px;
+    padding: 0 0 0 40px;
 }
 
 .habilidades{
@@ -33,6 +42,7 @@ ul{
 }
 
 .container{
+    padding-top: 1.5rem;
     display:table-cell;
     vertical-align:top;
 }
@@ -40,6 +50,14 @@ ul{
 
 /* -----------------Header----------------- */
 
+header{
+    padding: 0 0 1rem 0;
+    border-bottom: 6px solid rgb(0, 0, 90);
+}
+
+.title.grande{
+    font-size: 5rem;
+}
 
 .foto img{
     padding: 0 0 0 1rem;
@@ -65,32 +83,32 @@ ul{
     left: 100px;
 }
 
-header{
-    padding: 2rem 0 3rem;
-    border-bottom: 6px solid rgb(0, 0, 90);
-}
-
 
 /* -----------------Dados----------------- */
 
 .box {
-    display:flex;
-    flex-direction:row;
+    display:table-cell;
     justify-content: center;
     text-align: center;
-    border-radius: 2px;
-    border-color: black;
+    p{
+        padding: 0 10px 0 0;
+    }
+    
 }
 
 .box.blue{
     color: white;
-    background-color: rgb(0, 0, 90);;
+    background-color: rgb(0, 0, 90);
+    padding: 0 5px 0 5px;
+}
+
+.dados{
+    border-bottom: 6px solid rgb(198, 225, 233);
 }
 
 /* -----------------Esquerda----------------- */
 
 .esquerda{
-    float: left;
     height: 0px;
     padding: 0;
 }
@@ -98,18 +116,18 @@ header{
 .title.dois{
     width: 100%;
     border-bottom: 1px solid rgb(0, 0, 90);
+    font-size:1.7rem;
 }
 
 /* -----------------Direita----------------- */
 
 .direita{
-    background-color: rgb(197, 211, 241);
-    height: 600px;
-    float: right;
-    padding: 0 0 19rem 0;
+    background-color: rgb(219, 228, 248);
+    padding: 0.5rem 0 27rem 0;
     margin-left: 2rem;
-}
-
-.title.tres{
-    border-bottom: 1px solid white;
+    width: 300px;
+    
+    .title.dois{
+        border-bottom: 1px solid white;
+    }
 }
